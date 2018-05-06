@@ -18,6 +18,7 @@ def first_challenge
     if item == "strawberry"
       :favorite_icecream_flavors.delete(item)
       return item
+    end
   end
 
 
