@@ -14,10 +14,9 @@ def first_challenge
   }
   
   
-  for item in contacts["Freddy Mercury"] do 
-    puts "#{item}"
-  end
-
+    contacts["Freddy Mercury"] do |item|
+      arr = []
+      
 
   
   
