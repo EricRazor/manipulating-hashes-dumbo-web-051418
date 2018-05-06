@@ -16,6 +16,10 @@ def first_challenge
   
     contacts["Freddy Mercury"] do |item|
       arr = []
+      unless item == "strawberry" do 
+        arr << item
+      end
+    end
       
 
   
