@@ -16,7 +16,8 @@ def first_challenge
   
     contacts["Freddy Mercury"].each do
       arr = []
-      unless item == "strawberry" do |item|
+      item = "strawberry"
+      unless item == ["Freddy Mercury"][item] do |item|
         arr << item
       end
     end
