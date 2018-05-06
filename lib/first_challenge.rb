@@ -15,7 +15,8 @@ def first_challenge
   
   
   contacts["Freddy Mercury"][:favorite_icecream_flavors].each do |item|
-    puts "#{item}"
+    if item == "strawberry"
+      :favorite_icecream_flavors.delete(item)
   end
 
 
