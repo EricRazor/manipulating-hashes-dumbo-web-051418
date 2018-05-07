@@ -9,6 +9,6 @@ def second_challenge
   #code your solution here!
 
   groceries.values do |value|
-    puts "#{value}"
+    return value
   end
 end
