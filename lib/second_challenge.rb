@@ -8,7 +8,5 @@ def second_challenge
 
   #code your solution here!
 
-  groceries.values do |value|
-    return value
-  end
+  return groceries.values
 end
