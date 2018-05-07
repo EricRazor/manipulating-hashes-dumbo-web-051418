@@ -8,5 +8,5 @@ def second_challenge
 
   #code your solution here!
 
-  return groceries.values
+  
 end
