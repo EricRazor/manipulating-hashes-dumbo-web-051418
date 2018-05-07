@@ -9,8 +9,6 @@ def second_challenge
   #code your solution here!
 
   groceries.values do |value|
-    arr = []
-    arr.pop(value)
-    return arr
+    puts "#{value}"
   end
 end
