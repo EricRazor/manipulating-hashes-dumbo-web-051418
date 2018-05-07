@@ -13,18 +13,6 @@ def first_challenge
     }
   }
   
-  
-    contacts["Freddy Mercury"].each do
-      arr = []
-      item = "strawberry"
-      unless item == ["Freddy Mercury"][item] do |item|
-        arr << item
-      end
-    end
-      
-
-  
-  
 
 
   #remember to return your newly altered contacts hash!
