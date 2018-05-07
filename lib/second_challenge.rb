@@ -10,7 +10,7 @@ def second_challenge
 
   groceries.values do |value|
     arr = []
-    arr << value 
+    arr << value.join(",")
     return arr
   end
 end
