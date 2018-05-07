@@ -10,7 +10,7 @@ def second_challenge
 
   groceries.values do |value|
     arr = []
-    arr << value
+    arr.pop(value)
     return arr
   end
 end
