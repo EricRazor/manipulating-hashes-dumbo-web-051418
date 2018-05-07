@@ -11,6 +11,6 @@ def second_challenge
   groceries.values do |value|
     arr = []
     arr << value
-    return arr.join(",")
+    return arr.flatten
   end
 end
