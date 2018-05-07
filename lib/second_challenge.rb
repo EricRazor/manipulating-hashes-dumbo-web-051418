@@ -8,6 +8,9 @@ def second_challenge
 
   #code your solution here!
 
-  
-
+  groceries.values do |value|
+    arr = []
+    arr << value 
+    return arr
+  end
 end
